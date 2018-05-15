@@ -1,9 +1,19 @@
 public class Etudiant{
 private String nom;
 private String prenom;
-private String adress;
+private String email;
 
 public Etudiant(){
-super();
+
+}
+public String getNon(){
+return this.nom
+
+}
+public String getPreon(){
+return this.prenom
+}
+public String getEmail(){
+return this.email
 }
 }
