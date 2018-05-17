@@ -10,11 +10,6 @@ super();
 public Formateur(){
 
 }
-public Formateur(String nom,String prenom){
-this.nom=nom
-this.prenom=prenom
-}
-
 public String getNom(){
 return this.nom
 
@@ -25,14 +20,4 @@ return this.prenom
 public String getAdress(){
 return this.Adress
 }
-
-public void setNom(String nom) {
-		this.nom = nom;
-	}
-	public void setPrenom(String prenom) {
-		this.prenom = prenom;
-	}
-	public void setAdress(String adress) {
-		this.adress = adress;
-	}
 }
