@@ -20,4 +20,14 @@ return this.prenom
 public String getAdress(){
 return this.Adress
 }
+
+public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+	public void setAdress(String adress) {
+		this.adress = adress;
+	}
 }
