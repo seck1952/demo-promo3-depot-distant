@@ -3,7 +3,7 @@ private String nom;
 private String prenom;
 private String email;
 
-public Etudiant(){
+public Etudiant(String nom){
 this.nom=nom
 }
 public String getNon(){
