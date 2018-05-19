@@ -4,7 +4,7 @@ private String prenom;
 private String email;
 
 public Etudiant(){
-
+this.nom=nom
 }
 public String getNon(){
 return this.nom
